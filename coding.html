@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Projects</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navigation Bar -->
+  <nav class="fixed top-0 left-0 w-full z-10 bg-gray-900 text-white shadow-lg">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-2xl font-bold">Home</a>
+      <ul class="flex space-x-6">
+        <li><a href="writing.html" class="hover:text-gray-400 transition duration-300">Writing</a></li>
+        <li><a href="photography.html" class="hover:text-gray-400 transition duration-300">Photography</a></li>
+        <li><a href="videos.html" class="hover:text-gray-400 transition duration-300">Videos</a></li>
+        <li><a href="coding.html" class="hover:text-gray-400 transition duration-300">Coding</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Coding Projects Section -->
+  <section class="h-screen p-20 bg-gray-900 text-white">
+    <h2 class="text-4xl font-bold mb-8">My Coding Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- ACE Framework App Project -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-semibold mb-4">ACE Framework App</h3>
+        <p class="text-gray-300 mb-4">
+          The ACE (Action-Centered Engagement) Framework App is a task-tracking and rewards system built with Next.js and Supabase.
+          It encourages users to take consistent actions toward their goals by providing immediate feedback, XP accumulation, skill progression, and rewards.
+        </p>
+        <p class="text-sm text-gray-400 mb-4">
+          Technologies: Next.js, Supabase, Vercel, Tailwind CSS
+        </p>
+        <ul class="text-sm text-gray-400 mb-4">
+          <li>📊 Dashboard to view progress, actions, and rewards</li>
+          <li>✔️ Log actions to earn XP and track goals</li>
+          <li>🏆 Reward system for task completion</li>
+          <li>🔐 Supabase authentication</li>
+          <li>📱 Responsive design</li>
+        </ul>
+        <div class="flex space-x-4">
+          <a href="https://github.com/DanPace725/ace" target="_blank" class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-600 transition duration-300">GitHub Repo</a>
+          <a href="https://ace-24.vercel.app" target="_blank" class="px-4 py-2 bg-green-500 rounded hover:bg-green-600 transition duration-300">Live Demo</a>
+        </div>
+      </div>
+
+      <!-- Mindi AI Project -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-semibold mb-4">Mindi AI</h3>
+        <p class="text-gray-300 mb-4">
+          Mindi is an AI-driven app that combines conversational interaction with sophisticated note-taking to streamline your workflow and enhance memory.
+        </p>
+        <p class="text-sm text-gray-400 mb-4">
+          Technologies: React, Next.js, Supabase
+        </p>
+        <ul class="text-sm text-gray-400 mb-4">
+          <li>💬 Real-time chat with AI integration</li>
+          <li>📝 Built-in note-taking functionality</li>
+          <li>🔍 Advanced search and recall (Coming Soon)</li>
+          <li>📂 Local and cloud storage (Coming Soon)</li>
+        </ul>
+        <div class="flex space-x-4">
+          <a href="https://github.com/DanPace725/mindiAI" target="_blank" class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-600 transition duration-300">GitHub Repo</a>
+          <a href="https://mindi-ai.vercel.app/" target="_blank" class="px-4 py-2 bg-green-500 rounded hover:bg-green-600 transition duration-300">Live Demo</a>
+        </div>
+      </div>
+
+      <!-- GPT Excel Backend Project -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-semibold mb-4">GPT Excel Backend</h3>
+        <p class="text-gray-300 mb-4">
+          A Python-based Azure Function App that integrates GPT with Excel files stored in OneDrive, allowing for dynamic data manipulation using the Microsoft Graph API.
+        </p>
+        <p class="text-sm text-gray-400 mb-4">
+          Technologies: Python, Azure Functions, Microsoft Graph API
+        </p>
+        <ul class="text-sm text-gray-400 mb-4">
+          <li>🔐 MSAL authentication for secure Graph API access</li>
+          <li>📂 Excel file operations: list, fetch, update</li>
+          <li>📡 RESTful API endpoints for real-time Excel interaction</li>
+          <li>🚀 Automated deployment with GitHub Actions</li>
+        </ul>
+        <div class="flex space-x-4">
+          <a href="https://github.com/DanPace725/GPTExcel" target="_blank" class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-600 transition duration-300">GitHub Repo</a>
+          <!-- No live demo available for backend project -->
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

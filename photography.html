@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navigation Bar -->
+  <nav class="fixed top-0 left-0 w-full z-10 bg-gray-900 text-white shadow-lg">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-2xl font-bold">Home</a>
+      <ul class="flex space-x-6">
+        <li><a href="writing.html" class="hover:text-gray-400 transition duration-300">Writing</a></li>
+        <li><a href="photography.html" class="hover:text-gray-400 transition duration-300">Photography</a></li>
+        <li><a href="videos.html" class="hover:text-gray-400 transition duration-300">Videos</a></li>
+        <li><a href="coding.html" class="hover:text-gray-400 transition duration-300">Coding</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Photography Section -->
+  <section class="min-h-screen py-16 bg-gray-900 text-white">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-8">My Photography</h2>
+      <p class="text-lg text-center max-w-3xl mx-auto mb-12"> Click on the images to view the full resolution.</p>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Image 1 -->
+        <a href="photos/DSC_4399 2.jpg" target="_blank" class="group">
+          <div class="relative">
+            <img src="photos/DSC_4399 2.jpg" alt="Photography Image 1" class="w-full h-64 object-cover rounded-lg shadow-lg group-hover:opacity-80 transition duration-300">
+          </div>
+        </a>
+
+        <!-- Image 2 -->
+        <a href="https://drive.google.com/file/d/1MSgBK24BafmXU1xVmFf1wbuVr2YHUh4M/view?usp=drive_link" target="_blank" class="group">
+          <div class="relative">
+            <img src="photos/DSC_4857 2.jpg" alt="Photography Image 2" class="w-full h-64 object-cover rounded-lg shadow-lg group-hover:opacity-80 transition duration-300">
+          </div>
+        </a>
+
+        <!-- Image 3 -->
+        <a href="https://drive.google.com/file/d/1bvYYmd9bDO62ihP0m0NKmNIRKWsM53V0/view?usp=drive_link" target="_blank" class="group">
+          <div class="relative">
+            <img src="photos/DSC_5933 2.jpg" alt="Photography Image 3" class="w-full h-64 object-cover rounded-lg shadow-lg group-hover:opacity-80 transition duration-300">
+          </div>
+        </a>
+
+        <!-- Image 4 -->
+        <a href="https://drive.google.com/file/d/1LCVPhndbRUM-wl-yY0adjuUloZvlp77X/view?usp=drive_link" target="_blank" class="group">
+          <div class="relative">
+            <img src="photos/The World Awaits.jpg" alt="Photography Image 4" class="w-full h-64 object-cover rounded-lg shadow-lg group-hover:opacity-80 transition duration-300">
+          </div>
+        </a>
+
+        <!-- Image 5 -->
+        <a href="https://drive.google.com/file/d/1XyQJFyqwxKWIXYgu4Kh47FDqgS5G962V/view?usp=drive_link" target="_blank" class="group">
+          <div class="relative">
+            <img src="photos/You're Missing the Point.jpg" alt="Photography Image 5" class="w-full h-64 object-cover rounded-lg shadow-lg group-hover:opacity-80 transition duration-300">
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
